@@ -1,0 +1,23 @@
+.hdd {
+	display: none;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+	.mysp {
+		gap: 0.8rem !important;
+	}
+}
+@media screen and (max-width: 1313px) and (min-width: 1200px) {
+	.mysp {
+		gap: 0.8rem !important;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+	.mysp {
+		gap: 0.4rem !important;
+		font-size: 1rem;
+	}
+}
+

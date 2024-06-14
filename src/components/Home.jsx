@@ -18,18 +18,17 @@ export default function Home() {
 		setName(""); // Clear form data
 		setPhoneNumber("");
 	};
-	
 
 	return (
 		<div className="w-100 h-auto font-rob">
-			<div className="w-100 hom h-screen lg:h-[110vh] text-white  ">
+			<div className="w-100 hom h-screen lg:h-[110vh]  sm:h-[110vh] text-white  ">
 				<Navbar2 />
 				<NavBar />
 				<div className="content w-[90%] flex  flex-col gap-10 pt-10 leading-10 items-start xl:px-40 lg:px-20 2xl:px-64  md:px-12 ">
 					<h2 className=" text-5xl 2xl:text-7xl xl:text-7xl md:text-7xl font-extrabold font-rob px-4 2xl:px-0 xl:px-0 md:px-0">
 						19000+ Channels and VOD & Series
 					</h2>
-					<ul className="list-disc">
+					<ul className="list-disc leading-10">
 						<li className="ps-5">4K & HD & SD Quality.</li>
 						<li className="ps-5">Instant Delivery.</li>
 						<li className="ps-5">Immediate access after order.</li>
@@ -38,14 +37,14 @@ export default function Home() {
 						<li className="ps-5">Get Over 19k+ Standard & Premium Channels.</li>
 					</ul>
 					<div className="btn">
-						<button className="px-6 py-2 bg-yellow-400  rounded-md  ms-[-1rem]">
+						<button className="px-6 py-2 bg-yellow-400  rounded-md  ms-[1rem]  xl:mb[2rem]   lg:ms-[-1rem] xl:ms-[-1rem]  2xl:ms-[-1rem] ">
 							Get First Trail
 						</button>
 					</div>
 				</div>
 			</div>
 			<div className="trailoffer  w-100  xl:px-40 lg:px-20 2xl:px-64  md:px-12 px-5  ">
-				<div className="bg-white flex justify-between items-center flex-col  md:flex-row  xl:flex-row 2xl:flex-row  py-20 mt-[0rem] 2xl:mt-[-7rem]  xl:mt-[-6rem]  md:mt-[-5rem] px-10 2xl:px-20 xl:px-20  md:px-20 rounded-md shadow-xl gap-3">
+				<div className="bg-white flex justify-between items-center flex-col  md:flex-row  xl:flex-row 2xl:flex-row  py-20 mt-[1rem] 2xl:mt-[-7rem]  xl:mt-[-6rem]  md:mt-[-5rem] px-10 2xl:px-20 xl:px-20  md:px-20 rounded-md shadow-xl gap-3">
 					<h2 className="text-3xl font-rob ">Send Trail Request</h2>
 					<div className=" flex gap-3 justify-center items-start font-rob  flex-col  md:flex-row  xl:flex-row 2xl:flex-row ">
 						<div className="flex flex-col gap-1 text-[1.1rem]">
@@ -54,7 +53,7 @@ export default function Home() {
 							</label>
 							<input
 								type="text"
-								className=" py-2 px-2 rounded border"
+								className=" py-2 px-2 rounded border outline-none"
 								placeholder="Name"
 								name="username"
 								value={name}
@@ -67,7 +66,7 @@ export default function Home() {
 							</label>
 							<input
 								type="text"
-								className=" py-2 px-2 text-[1rem] rounded  2xl:pe-10 xl:pe-10 pe-7 border"
+								className=" py-2 px-2 text-[1rem] rounded  2xl:pe-10 xl:pe-10 pe-7 border "
 								placeholder="Phone Number"
 								value={phoneNumber}
 								onChange={(e) => setPhoneNumber(e.target.value)}
@@ -77,7 +76,7 @@ export default function Home() {
 							<button
 								onClick={handleSubmit}
 								className="px-5 py-3 bg-blue-600 text-white mt-7 ">
-							Send
+								Send
 							</button>
 							<ul></ul>
 						</div>

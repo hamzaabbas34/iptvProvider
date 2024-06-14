@@ -46,7 +46,7 @@ export default function Footer() {
 						Free Estimate
 					</h2>
 					<p>Call Us: +966503304913</p>
-					<p>5kiptvprovider@gmail.com</p>
+					<p className="flex flex-wrap">5kiptvprovider<p>@gmail.com</p></p>
 				</div>
 			</div>
 			<div className="grid grid-cols-1  2xl:grid-cols-2  xl:grid-cols-2  md:grid-cols-2  xl:px-40 lg:px-20 2xl:px-64  md:px-12 place-items-center text-white border-t border-t-gray-400  py-10">

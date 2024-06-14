@@ -63,7 +63,7 @@ export default function Message() {
 								type="text"
 								id="name"
 								placeholder="Enter here"
-								className="border-2 border-yellow-400 rounded ps-2 py-3"
+								className="border-2 border-yellow-400 rounded ps-2 py-3 outline-none"
 								value={name}
 								onChange={(e) => setName(e.target.value)}
 								required
@@ -75,7 +75,7 @@ export default function Message() {
 								type="email"
 								id="email"
 								placeholder="Enter here"
-								className="border-2 border-yellow-400 rounded ps-2 py-3"
+								className="border-2 border-yellow-400 rounded ps-2 py-3 outline-none"
 								value={email}
 								onChange={(e) => setEmail(e.target.value)}
 								required
@@ -87,7 +87,7 @@ export default function Message() {
 								type="text"
 								id="subject"
 								placeholder="Enter here"
-								className="border-2 border-yellow-400 rounded ps-2 py-3"
+								className="border-2 border-yellow-400 rounded ps-2 py-3 outline-none"
 								value={subject}
 								onChange={(e) => setSubject(e.target.value)}
 								required
@@ -100,7 +100,7 @@ export default function Message() {
 								rows="8"
 								cols="10"
 								placeholder="Enter here"
-								className="border-2 border-yellow-400 rounded ps-2 py-3"
+								className="border-2 border-yellow-400 rounded ps-2 py-3 outline-none"
 								value={message}
 								onChange={(e) => setMessage(e.target.value)}
 							/>
